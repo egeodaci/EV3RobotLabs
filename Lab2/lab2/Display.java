@@ -58,6 +58,7 @@ public class Display implements Runnable {
     lcd.clear();
     
     long updateStart, updateEnd;
+	  
 
     long tStart = System.currentTimeMillis();
     do {
