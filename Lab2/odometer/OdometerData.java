@@ -65,6 +65,7 @@ public class OdometerData {
     } else if (numberOfIntances < MAX_INSTANCES) { // create object and
                                                    // return it
       odoData = new OdometerData();
+      
       numberOfIntances += 1;
       return odoData;
     } else {
